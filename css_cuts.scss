@@ -1,0 +1,42 @@
+/* HTML */
+/*
+<!--         <nav id="nav" class="inner" role="navigation">
+            <a href="gallery" class="nav">Gallery</a>
+            <a href="main" class="nav active">Main</a>
+        </nav> -->
+*/
+
+/* SCSS */
+/*    nav {
+        padding: 4em 0 0 0;
+        a {
+            float: right;
+            color: #ededed;
+            font: bold 1.5em Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            text-decoration: none;
+            margin-right: 1.6em;
+            bottom: 0;
+            &:after {
+                color: #ededed;
+                content: "/";
+                display: inline-block;
+                position: absolute;
+                padding-left: .8em;
+                padding-right: .8em;
+            }
+            &:first-of-type {
+                margin-right: 1em;
+                &:after {
+                    content: "";
+                    display: none;
+                }
+            }
+            &.active {
+                border-bottom: 3px solid #ededed;
+                -webkit-box-shadow: 0px 1px 1px #000000;
+                -moz-box-shadow: 0px 1px 1px #000000;
+                box-shadow: 0px 1px 1px #000000;
+            }
+        }
+    }*/

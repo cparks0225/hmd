@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose cache add [ '.', null ]
+5 verbose cache add spec="." args=[".",null]
+6 verbose parsed spec { raw: '.',
+6 verbose parsed spec   scope: null,
+6 verbose parsed spec   name: null,
+6 verbose parsed spec   rawSpec: '.',
+6 verbose parsed spec   spec: '/Users/cparks/MediaFire/Documents/Programming/hmd',
+6 verbose parsed spec   type: 'local' }
+7 verbose cache add local package /Users/cparks/MediaFire/Documents/Programming/hmd
+8 silly lockFile 32eaf81c-iaFire-Documents-Programming-hmd /Users/cparks/MediaFire/Documents/Programming/hmd
+9 verbose lock /Users/cparks/MediaFire/Documents/Programming/hmd /Users/cparks/.npm/32eaf81c-iaFire-Documents-Programming-hmd.lock
+10 silly lockFile 32eaf81c-iaFire-Documents-Programming-hmd /Users/cparks/MediaFire/Documents/Programming/hmd
+11 silly lockFile 32eaf81c-iaFire-Documents-Programming-hmd /Users/cparks/MediaFire/Documents/Programming/hmd
+12 error addLocal Could not install /Users/cparks/MediaFire/Documents/Programming/hmd
+13 verbose stack Error: Failed to parse json
+13 verbose stack Unexpected string
+13 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:378:25)
+13 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:85:51)
+13 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:59:33
+13 verbose stack     at evalmachine.<anonymous>:271:14
+13 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+13 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+14 verbose cwd /Users/cparks/MediaFire/Documents/Programming/hmd
+15 error Darwin 13.3.0
+16 error argv "node" "/usr/local/bin/npm" "install" "-g"
+17 error node v0.10.32
+18 error npm  v2.0.0
+19 error file /Users/cparks/MediaFire/Documents/Programming/hmd/package.json
+20 error code EJSONPARSE
+21 error Failed to parse json
+21 error Unexpected string
+22 error File: /Users/cparks/MediaFire/Documents/Programming/hmd/package.json
+23 error Failed to parse package.json data.
+23 error package.json must be actual JSON, not just JavaScript.
+23 error
+23 error This is not a bug in npm.
+23 error Tell the package author to fix their package.json file. JSON.parse
+24 verbose exit [ 1, true ]
