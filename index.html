@@ -1,68 +1,87 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
        "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
-<head>
-    <title>Handy Man Dan</title>
-    <script src="http://localhost:35729/livereload.js"></script>
-    <link href="dist/styles/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="dist/styles/main.css" rel="stylesheet">
-    <link href="dist/styles/nav.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
-    <header id="top">
-        <div>
-            <i class="fa fa-wrench fa-2x pull-left"></i>
-            <a href="#" class="contact pull-left badge">Handydan, The Handy Man</a>
-            <a href="tel://8478671595" class="contact pull-right">847-867-1595</a>
-            <i class="fa fa-mobile-phone fa-lg pull-right"></i>
-            <a href="mailto:cparks0225@gmail.com" class="contact pull-right">cparks0225@gmail.com</a>
-            <i class="fa fa-envelope pull-right"></i>
-        </div>
-    </header>
-    <div id="main" class="main">
-        <label>Fine Woodworking</label>
-        <div class="pic pic-woodworking">
-             <div class="detail">
-                Perfecting his craft for over 40 years, Dan 
-                creates fine furniture built to last a
-                lifetime.
-                <ul>
-                    <li>Bars</li>
-                    <li>Tables</li>
-                    <li>Dressers</li>
-                    <li>Custom Cabinetry</li>
-                    <li>Entertainment Units</li>
-                </ul>
-                Custom designed, built to order.
-            </div> 
-        </div>
-        <label>Home Renovations</label>
-        <div class="pic pic-home-renovations">
-             <div class="detail">
-                From custom moulding to full house renovations,
-                let Dan handle your next home improvement project
-                <ul>
-                    <li>Decking</li>
-                    <li>Drywalling</li>
-                    <li>Kitchen Remodelling</li>
-                    <li>Bathroom Renovations</li>
-                    <li>Basement Finishing</li>
-                </ul>
-                Dan can do it all.
-            </div> 
-        </div>
-        <div class="full-only">
-            <label>Electrical</label>
-            <div class="pic pic-electrical">
-                 <div class="detail">
-                    Electrical                
-                </div> 
+    <head>
+        <title>Handy Man Dan</title>
+        <script src="http://localhost:35729/livereload.js"></script>
+        <link href="dist/styles/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+        
+        <link href="dist/styles/styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-box">
+                <img src="static/images/logo.svg" class="header-logo"/>
+                <a href="tel://8478671595" title="847-867-1595" class="link pull-right">
+                    <i class="fa fa-mobile-phone fa-2x pull-right"></i>
+                </a>
+                <a href="mailto:cparks0225@gmail.com" title="cparks0225@gmail.com" class="link pull-right">
+                    <i class="fa fa-envelope fa-2x pull-right"></i>
+                </a>
+            </div>
+            <div class="details-box">
+                <label class="detail">Fine Woodworking</label>
+                <div class="pic pic-woodworking">
+                     <div class="detail">
+                        Perfecting his craft for over 20 years, Dan
+                        creates fine furniture built to last a
+                        lifetime.
+                        <ul>
+                            <li>Bars</li>
+                            <li>Tables</li>
+                            <li>Dressers</li>
+                            <li>Custom Cabinetry</li>
+                            <li>Entertainment Units</li>
+                        </ul>
+                        Custom designed, built to order.
+                    </div> 
+                </div>
+                <label class="detail">Home Repair/Renovations</label>
+                <div class="pic pic-home-renovations">
+                     <div class="detail">
+                        From simple repairs to full house renovations,
+                        let Dan handle your next home improvement project.
+                        <ul>
+                            <li>Decking</li>
+                            <li>Appliance Installations</li>
+                            <li>Kitchen Remodelling</li>
+                            <li>Bathroom Renovations</li>
+                            <li>Basement Finishing</li>
+                        </ul>
+                        Dan can do it all.
+                    </div> 
+                </div>
+            </div>
+            <div class="contact-box">
+                <label class="detail offset">Contact</label>
+                <div class="contact">
+                    <form name="htmlform" method="post" action="html_form_send.php">
+                        <label class="contact" for="first_name">First Name *</label>
+                        <input type="text" name="first_name" class="pull-right contact-input" maxlength="50" size="30">
+                        <br>
+                        <label class="contact" for="last_name">Last Name *</label>
+                        <input type="text" name="last_name" class="pull-right contact-input" maxlength="50" size="30">
+                        <br>
+                        <label class="contact" for="email">Email Address *</label>
+                        <input type="text" name="email" class="pull-right contact-input" maxlength="80" size="30">
+                        <br>
+                        <label class="contact" for="telephone">Telephone Number</label>
+                        <input type="text" name="telephone" class="pull-right contact-input" maxlength="30" size="30">
+                        <br>
+                        <label class="contact" for="comments">Comments *</label>
+                        <br>
+                        <textarea name="comments" class="contact-input" maxlength="1000" rows="6"></textarea>
+                        <input class="submit-button pull-right" type="submit" value="Submit">
+                        <br>
+                    </form>
+                </div>
+                <label class="detail offset">Gallery</label>
+                <div class="contact">
+                </div>
             </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>

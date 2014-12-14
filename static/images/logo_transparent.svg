@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="129"
+   height="56"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="logo_transparent.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.346667"
+     inkscape:cx="75"
+     inkscape:cy="37.5"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1917"
+     inkscape:window-height="1028"
+     inkscape:window-x="3"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Background"
+     style="display:inline"
+     transform="translate(0,-34)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Decoration"
+     style="display:inline"
+     transform="translate(0,-34)">
+    <path
+       style="fill:none;stroke:#ff6600;stroke-width:2.04200006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 127.75541,66.947644 c 0,0 0.17026,3.839647 -3.97762,3.831343 C 118.84243,70.769106 0.041,70.751807 0.041,70.751807"
+       id="path3049"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <path
+       sodipodi:nodetypes="csc"
+       inkscape:connector-curvature="0"
+       id="path3819"
+       d="m 128.17301,86.346442 c 0,0 0.18487,2.341409 -2.56751,2.303728 C 120.67059,88.58261 0.015863,88.59631 0.015863,88.59631"
+       style="fill:none;stroke:#808080;stroke-width:1.08099997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Text"
+     style="display:inline"
+     transform="translate(0,-34)">
+    <text
+       xml:space="preserve"
+       style="font-size:39.71829605px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.58409262px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Abel;-inkscape-font-specification:Abel"
+       x="-3.1805665"
+       y="57.106766"
+       id="text3005"
+       sodipodi:linespacing="125%"
+       transform="scale(0.85602865,1.1681852)"><tspan
+         sodipodi:role="line"
+         id="tspan3007"
+         x="-3.1805665"
+         y="57.106766">Handy</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:39.79559708px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0.58522934px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;font-family:Abel;-inkscape-font-specification:Abel"
+       x="94.160278"
+       y="57.302761"
+       id="text3009"
+       sodipodi:linespacing="125%"
+       transform="scale(0.8543659,1.1704587)"><tspan
+         sodipodi:role="line"
+         id="tspan3011"
+         x="94.160278"
+         y="57.302761">Dan</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:2.33999991px;word-spacing:0px;fill:#808080;fill-opacity:1;stroke:none;font-family:Abel;-inkscape-font-specification:Abel"
+       x="-0.36035156"
+       y="86.396484"
+       id="text3013"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3015"
+         x="-0.36035156"
+         y="86.396484">The Handy Man</tspan></text>
+  </g>
+</svg>

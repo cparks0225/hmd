@@ -1,63 +1,112 @@
-/*figure {
-    float: left;
-    border: 1px solid black;
-}
-figure img {
-    height: auto;
-    width: auto;
-    max-height: 450px;
-    max-width: 450px;
-}
 body {
-    background-image: url("../images/wood-panels-1440.jpg");
+    display: block;
+    margin: 0;
+    background-image: url("/dist/images/wood-panels-1440-flip.jpg");
     background-size: 2560px 1440px;
-    margin: 0px;
-}*/
 
-@media only screen and (max-width: 480px) {
-    body {
-        background-image: url("/dist/images/wood-panels-1440.jpg");
-        background-size: 2560px 1440px;
-        margin: 0px;
-        .full-only {
-            display: none;
+    font-family: "Abel",sans-serif;
+
+    .header-box {
+        height: 150px;
+        width: 100%;
+
+        background-color: #000000;
+        border-top: 1px #000 solid;
+        border-bottom: 1px #000 solid;
+        box-shadow: inset 0 1px 1px #222222, inset 0 -1px 1px #222222;
+
+        .header-logo {
+            width: 300px;
         }
+        .badge {
+            color: white;
+        }
+        .link {
+            position: relative;
+            opacity: 0%;
+            top: 100px;
+        }
+        .fa {
+            color: white;
+            padding-right: .6em;
+            top: 100px;
+            right: 0px;
+        }
+    }
+    .details-box {
+        height: 367px;
+    }
+    .contact-box {
+        height: 367px;
+    }
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    label.detail {
+        color: #ededed;
+        font-weight: 600;
+        font-size: 1.6em;
+        display: inline-block;
+        margin-top: .6em;
+    }
+    label.offset {
+        margin-left: 1.2em;
+    }
+    div.detail {
+        background:#FFF;
+        opacity: 0.7; 
+        text-align: justify; 
+        color: #22201e;
+        font-weight: 600;
+        font-size: 1.5em;
+        font-family: "Abel",sans-serif;
+        padding: 20px;
+    }
+    div.contact {
+        background-color: #FFF;
+        opacity: 0.8;
+        margin-left: 2em;
+    }
+
+    .pic {
+        margin-bottom: 1em;
+        margin-right: 1em;
+        opacity: 1;
+        width: 450px;
+        height: 367px;
+        display: inline-block;
+    }
+    .pic-electrical {
+        background: url("/dist/images/electrical_bw.png") no-repeat;
+    }
+    .pic-home-renovations {
+        background: url("/dist/images/home_renovations_bw.png") no-repeat;
+    }
+    .pic-woodworking {
+        background: url("/dist/images/fine_woodworking_bw.png") no-repeat;
+    }
+    form {
+        padding: 1em;
+        padding-bottom: 2em;
         label {
-            color: #ededed;
-            font-weight: 600;
-            font-size: 1.6em;
-            font-family: "Abel",sans-serif;
-            margin-left:  1.5em;
-        }
-        .pic {
-            margin: auto;
-            margin-bottom: 1em;
-            width: 400px;
-            height: 400px;
-        }
-        .pic-electrical {
-            background: url("/dist/images/electrical_bw.png") no-repeat;
-        }
-        .pic-home-renovations {
-            background: url("/dist/images/home_renovations_bw.png") no-repeat;
-        }
-        .pic-woodworking {
-            background: url("/dist/images/fine_woodworking_bw.png") no-repeat;
-        }
-        .detail {
-            width:360px;
-            height:360px;
-            background:#FFF;
-            opacity:0;
-        }
-        .pic .detail {
-            opacity: 0.6; 
-            text-align: justify; 
             color: #22201e;
             font-weight: 600;
-            font-size: 1.5em;
-            font-family: "Abel",sans-serif;
-            padding: 20px;
+            font-size: 1.2em;
+        }
+        input {
+            height: 1.7em;
+            border: 1px solid;
+        }
+        textarea {
+            margin-bottom: 10px;
+            width:98%;
+            border: 1px solid;
+        }
+        .submit-button {
+            width: 10em;
         }
     }
 }

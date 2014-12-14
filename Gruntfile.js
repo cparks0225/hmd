@@ -21,6 +21,15 @@ module.exports = function(grunt) {
                 }]
             }
         },
+        concat_css: {
+            options: {
+              // Task-specific options go here.
+            },
+            all: {
+                src: ["dist/styles/*.css"],
+                dest: "dist/styles/styles.css"
+            },
+        },
         concat: {
             options: {
                 stripBanners: true
@@ -69,10 +78,14 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: 'static/images',
-                    src: ['**/*.{png,jpg,gif}'],
+                    src: ['**/*.{png,jpg,gif,jpeg}'],
                     dest: 'dist/images/'
                 }]
             }
+        },
+        clean: {
+            build: ["dist/styles/styles.css"],
+            release: ["dist/styles/styles.css"]
         },
         watch: {
             options: {
@@ -85,9 +98,16 @@ module.exports = function(grunt) {
                     spawn: false,
                 }
             },
+            images: {
+                files: ['static/images/*'],
+                tasks: ['imagemin'],
+                options: {
+                    spawn: false,
+                }
+            }
             css: {
                 files: ['static/styles/*.scss'],
-                tasks: ['sass'],
+                tasks: ['sass', 'clean', 'concat_css'],
                 options: {
                     spawn: false,
                 }
@@ -111,6 +131,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-concat-css');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // Default task.
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass']);
