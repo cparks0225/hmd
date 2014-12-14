@@ -104,7 +104,7 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false,
                 }
-            }
+            },
             css: {
                 files: ['static/styles/*.scss'],
                 tasks: ['sass', 'clean', 'concat_css'],
