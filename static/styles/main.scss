@@ -1,7 +1,11 @@
 body {
     display: block;
     margin: 0;
+    padding: 0;
+    height: 100%;
+
     background-image: url("/dist/images/wood-panels-1440-flip.jpg");
+    /*background-color: #770000;*/
     background-size: 2560px 1440px;
 
     font-family: "Abel",sans-serif;
@@ -9,7 +13,7 @@ body {
     .header-box {
         height: 150px;
         width: 100%;
-
+        margin-bottom: 1em;
         background-color: #000000;
         border-top: 1px #000 solid;
         border-bottom: 1px #000 solid;
@@ -34,7 +38,7 @@ body {
         }
     }
     .details-box {
-        height: 367px;
+        min-height: 100%
     }
     .contact-box {
         height: 367px;
@@ -44,16 +48,28 @@ body {
         display: flex;
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-container {
+    }
+    .content{
+        position: relative;
+        min-height:100%;
+        padding-bottom: 20px;
+    }
+    .spacer {
+        height: 1em;
     }
     label.detail {
         color: #ededed;
         font-weight: 600;
         font-size: 1.6em;
         display: inline-block;
-        margin-top: .6em;
+        margin-left: .6em;
     }
     label.offset {
-        margin-left: 1.2em;
+        margin-left: .6em;
     }
     div.detail {
         background:#FFF;
@@ -68,19 +84,16 @@ body {
     div.contact {
         background-color: #FFF;
         opacity: 0.8;
-        margin-left: 2em;
-    }
-
-    .pic {
-        margin-bottom: 1em;
+        margin-left: 1em;
         margin-right: 1em;
+    }
+    .pic {
+        margin-right: 1em;
+        margin-left: 1em;
         opacity: 1;
-        width: 450px;
+        width: 430px;
         height: 367px;
         display: inline-block;
-    }
-    .pic-electrical {
-        background: url("/dist/images/electrical_bw.png") no-repeat;
     }
     .pic-home-renovations {
         background: url("/dist/images/home_renovations_bw.png") no-repeat;

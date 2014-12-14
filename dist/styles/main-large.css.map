@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,yCAA0C,CAElC,gBAAY,CACV,KAAK,CAAE,IAAI,CAEb,iBAAa,CACT,KAAK,CAAE,GAAG,CAEd,iBAAa,CACT,KAAK,CAAE,GAAG",
-"sources": ["../../static/styles/main-large.scss"],
-"names": [],
-"file": "main-large.css"
-}

@@ -1,9 +1,12 @@
 @media only screen and (max-width: 480px) {
     body {
-        .details-box {
+        .container {
+            width: 450px;
+        }
+        .header-box {
             width: 100%;
         }
-        .contact-box {
+        .details-box {
             width: 100%;
         }
     }

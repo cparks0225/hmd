@@ -1,5 +1,8 @@
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 900px) {
     body {
+        .container {
+            width: 900px;
+        }
         .header-box {
           width: 100%;
         }

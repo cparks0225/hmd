@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,yBAA0B,CACxB,UAAW,CACT,KAAK,CAAE,KAAK,CACZ,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI",
-"sources": ["../../static/styles/main-largest.scss"],
-"names": [],
-"file": "main-largest.css"
-}
