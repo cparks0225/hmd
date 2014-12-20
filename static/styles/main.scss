@@ -12,7 +12,6 @@ body {
     .header-box {
         height: 150px;
         width: 100%;
-        margin-bottom: 1em;
         background-color: #000000;
         border-top: 1px #000 solid;
         border-bottom: 1px #000 solid;
@@ -35,6 +34,14 @@ body {
             top: 100px;
             right: 0px;
         }
+    }
+    .blurb-box {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 150%;
     }
     .details-box {
         min-height: 100%
